@@ -622,7 +622,7 @@ a {
   justify-content: center;
 }
 .foot {
-  height: 4.4rem;
+  height: 11vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
