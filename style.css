@@ -649,7 +649,7 @@ a {
 @media screen and (max-width: 430px) {
   .a,
   .b {
-    font-size: 4vh;
+    font-size: 2vh;
   }
 }
 #navf {
