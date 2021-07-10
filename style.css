@@ -627,12 +627,6 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 2%;
-  /* display: grid;
-  grid-template-columns: auto auto; */
-  /*  
-  flex-direction: column;
-  justify-content: center; */
-  /* grid-template-rows: auto auto; */
 }
 .a {
   text-align: left;
@@ -646,9 +640,17 @@ a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+.ab {
+  text-align: center;
+  padding-top: 1%;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 @media screen and (max-width: 430px) {
   .a,
-  .b {
+  .b,
+  .ab {
     font-size: 2vh;
   }
 }
