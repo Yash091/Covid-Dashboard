@@ -487,23 +487,29 @@ a {
 .registration {
   background-color: #1064e7;
   color: white;
+  border-radius: 7px;
 }
 .dose {
   background-color: #1064e7;
   color: white;
+  border-radius: 7px;
 }
 .certificate {
   background-color: #1064e7;
   color: white;
+  border-radius: 7px;
 }
 .vaccination {
   background-color: #8bb5f7;
+  border-radius: 7px;
 }
 .schedule {
   background-color: #8bb5f7;
+  border-radius: 7px;
 }
 .side-effects {
   background-color: #8bb5f7;
+  border-radius: 7px;
 }
 .bb {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -627,6 +633,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 2%;
+  padding-top: 1.5rem;
 }
 .a {
   text-align: left;
@@ -651,7 +658,6 @@ a {
   .a,
   .b,
   .ab {
-    padding-top: 10%;
     font-size: 2vh;
   }
 }
